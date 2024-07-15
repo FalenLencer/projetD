@@ -1,6 +1,13 @@
-// Ce programme contrôle un lidar et deux moteurs pas à pas.
+// Ce programme contrôle un lidar et deux moteurs pas à pas. Grace à une arduino R4
 // Il effectue des mesures avec le lidar à différentes positions angulaires et enregistre les données dans un fichier CSV sur une carte SD.
-
+/*
+ _ _ _   _ _ _   _ _ _  _ _ _  _ _ _  _ _ _   _ _ 
+|     | |     | |     |   |   |         |    |    \ 
+|_ _ _| |_ _ _| |     |   |   |         |    |     |
+|       | \     |     |   |   |- - -    |    |     |
+|       |  \    |     |   /   |         |    |     |
+|       |   \   |_ _ _|  /    |_ _ _    |    |_ _ /
+*/
 // Configuration du lidar
 // Choix entre le mode I2C et UART en fonction du branchement du capteur, on prend I2C.
 #include "DFRobot_LIDAR07.h"
